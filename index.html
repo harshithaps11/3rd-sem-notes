@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Pal - Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Academic Pal Logo" class="logo">
+        </div>
+        <h1>Academic Pal</h1>
+        <button class="back-button" id="backButton" onclick="goBack()">Back</button>
+    </header>
+    <main>
+        <section id="semester-selection">
+            <h2>Select Semester</h2>
+            <div class="button-container">
+                <button class="semester-button" onclick="showBranches('3rd')">3rd Semester</button>
+                <button class="semester-button" onclick="showBranches('4th')">4th Semester</button>
+            </div>
+            <!-- Image at the bottom of the section -->
+            <img src="Designer - 2024-06-29T102047.649.jpeg" alt="Semester Selection Image" class="section-image">
+        </section>
+        <section id="branch-selection" class="hidden">
+            <h2>Select Branch</h2>
+            <ul class="branch-list">
+                <li class="branch-option" data-branch="ai-data-science">Artificial Intelligence & Data Science</li>
+                <li class="branch-option" data-branch="ai-machine-learning">Artificial Intelligence & Machine Learning</li>
+                <li class="branch-option" data-branch="biotechnology">Biotechnology</li>
+                <li class="branch-option" data-branch="civil-engineering">Civil Engineering</li>
+                <li class="branch-option" data-branch="computer-communication">Computer & Communication Engineering</li>
+                <li class="branch-option" data-branch="computer-science">Computer Science & Engineering</li>
+                <li class="branch-option" data-branch="full-stack">Computer Science (Full Stack Development)</li>
+                <li class="branch-option" data-branch="cyber-security">Computer Science & Engineering (Cyber Security)</li>
+                <li class="branch-option" data-branch="electrical-electronics">Electrical & Electronics Engineering</li>
+                <li class="branch-option" data-branch="electronics-communication">Electronics & Communication Engineering</li>
+                <li class="branch-option" data-branch="electronics-vlsi">Electronics Engineering (VLSI Design & Technology)</li>
+                <li class="branch-option" data-branch="electronics-act">Electronics & Communication (ACT)</li>
+                <li class="branch-option" data-branch="information-science">Information Science & Engineering</li>
+                <li class="branch-option" data-branch="mechanical-engineering">Mechanical Engineering</li>
+                <li class="branch-option" data-branch="robotics-ai">Robotics & Artificial Intelligence</li>
+            </ul>
+            <!-- Image at the bottom of the section -->
+            <img src="Designer - 2024-06-29T102344.312.jpeg" alt="Branch Selection Image" class="section-image">
+        </section>
+        <section id="notes-message" class="hidden">
+            <p id="notes-text"></p>
+            <!-- Image at the bottom of the section -->
+            <img src="Designer - 2024-06-29T101723.207.jpeg" alt="Notes Image" class="section-image">
+        </section>
+    </main>
+    <footer>
+        <!-- Common footer content -->
+        <p>Contact us at contact@academicpal.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
