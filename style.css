@@ -42,6 +42,8 @@ header {
 h1 {
     margin: 0;
     font-size: 1.8em;
+    position:relative;
+    right: 1200px;
 }
 
 /* Back Button */
@@ -212,6 +214,8 @@ button:hover {
     margin-top: 20px; /* Example margin top to separate from content */
     border-radius: 8px; /* Rounded corners for aesthetics */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: relative;
+    left: 90px;
 }
 
 /* CSS for centering content on the first page */
@@ -220,23 +224,3 @@ button:hover {
     padding-top: 50px; /* Example padding for top space */
 }
 
-/* Example CSS for styling images */
-.section-image {
-    max-width: 100%; /* Ensure images don't exceed their container width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensures images don't have extra space underneath */
-    margin-top: 20px; /* Example margin top to separate from content */
-    border-radius: 8px; /* Rounded corners for aesthetics */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
-
-/* Example CSS for styling images */
-.section-image {
-    max-width: 100%; /* Ensure images don't exceed their container width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensures images don't have extra space underneath */
-    margin-top: 20px; /* Example margin top to separate from content */
-    border-radius: 8px; /* Rounded corners for aesthetics */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
